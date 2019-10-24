@@ -3,62 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-  <title>элементы формы (html5)</title>
-  <style>
-      .form-html15 {background-color: chartreuse;
-      width: 50%;
-     
-      max-width: 700px;
-      min-width: 400px;
-    
-    
-          margin-left: auto;
-          margin-right: auto}
-      
+    <title>элементы формы (html5)</title>
+    <style>
+        .form-html5 {
+            background-color: chartreuse;
+            width: 50%;
+
+            max-width: 700px;
+            min-width: 400px;
+
+            margin-left: auto;
+            margin-right: auto
+        }
+
     </style>
 </head>
 
 
 
 <body>
-    <form action="#" method="post">
-<div>
-     <label for="login">Логин: </label>
-     <input type="text" id="login">
-         
-     <label for="pswd">Пароль: </label>
-     <input type="password" id="pswd">
-</div>
-       
- <div>
-            
-         <label class="lbl-header">Пол: </label>
-        
-        <label class="lbl-header" for="m">Муж </label>
-        <input type="radio" id="m" checked name="sex">
-        
-        <label class="lbl-header" for="w">Жен </label>
-        <input type="radio" id="w" name="sex">
-</div>  
-        
-<div>
-            
-        <label>Хобби: </label>
-        
-        <label class="lbl-header" for="football">Футбол </label>
-        <input type="radio" id="football" checked name="hobbi">
-        
-        <label class="lbl-header" for="volleyball">Воллейбол </label>
-        <input type="radio" id="volleyball" name="hobbi">
-        
-        <label  fclass="lbl-header" or="basketball">Баскетбол </label>
-        <input type="radio" id="basketball" name="hobbi" checked>
-</div>
+    <form action="#" method="post" class="form-html5">
+        <div class="form-group">
+            <label for="login">Логин: </label>
+            <input type="text" id="login">
 
-   <div class="form-group">
-      <input  tipe="reset" value="очистить">
-      <button type="submit">отправить</button>
-   </div>
+            <label for="pswd">Пароль: </label>
+            <input type="password" id="pswd">
+        </div>
+
+        <div class="form-group">
+
+            <label class="lbl-header">Пол: </label>
+
+            <label class="lbl-header" for="m">Муж </label>
+            <input type="radio" id="m" checked name="sex">
+
+            <label class="lbl-header" for="w">Жен </label>
+            <input type="radio" id="w" name="sex">
+        </div>
+
+        <div class="form-group">
+
+            <label>Хобби: </label>
+
+            <label class="lbl-header" for="football">Футбол </label>
+            <input type="radio" id="football" checked name="hobbi">
+
+            <label class="lbl-header" for="volleyball">Воллейбол </label>
+            <input type="radio" id="volleyball" name="hobbi">
+
+            <label fclass="lbl-header" or="basketball">Баскетбол </label>
+            <input type="radio" id="basketball" name="hobbi" checked>
+        </div>
+
+        <div class="form-group">
+            <input tipe="reset" value="очистить">
+            <button type="submit">отправить</button>
+        </div>
     </form>
 </body>
 
