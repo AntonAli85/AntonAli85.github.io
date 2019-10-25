@@ -6,66 +6,87 @@
     <title>элементы формы (html5)</title>
     <style>
         .form-html5 {
-            background-color: blue;
-            width: 20%;
-
-            max-width: 700px;
-            min-width: 400px;
-            border:70px #c80ee0;
-            border-radius: 30px;
+            background-color: rgba ( 255, 255, 0.047);
+            background-image: linear-gradient(to top, rgba(232, 147, 147, 0.58), rgb(153, 229, 153, 0.62));
+            
+            
+            max-width: 400px;
+            
+            border: 10px solid rgba (3, 155, 0.49);
+            border-radius: 10px;
+            
             margin-left: auto;
             margin-right: auto;
-            padding: 30px;
-        }
-
-        .lbl-heder {
-            font-size: 20px;
-            font-weight: bold;
-            font-family:"verdana",sans-serif;
-            color:rgb(216, 5, 5,);
             
             
-            text-transform: uppercase;
+            padding: 15px;}
             
             
-            font-weight:  bold;
-               }
-        .form-group {
-            
-            
-           
-             font-style: italic;
-        }
-        .btn {
-            height: 30px;
-            width: 150px;
-            padding: auto;
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-bottom: 10%;
-            border-radius: 10px;
-            font-size: 20;
-            color: #c80ee0;
-            border: none;
-            box-shadow: 5px 8px 6px 3px;
-            
-            transition: transform 250ms;
-    
+    .form-group {
+            line-height: 180%;
+        
         }
         
-        .btn: hover
-        {
-        transform: scale (1.03);
-         color: black; 
+    .lbl-header {
+         font-size: 12px;
+         font-weight: bold;
+         font-family: "verdana",sans-serif;
+        
+        
+        
+        color: rgb (66,66, 239, 0.83);
+        text-transform: uppercase;
         }
-        .btn-reaet {
-            background-color: aqua;
-            
+        
+    .lbl  {
+        color:  #034d22;
+        font-style: italic;
+        }
+      .txt-delivery {
+            width: 50%;
+            min-height: 100px;
+        }
+        .btn {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            padding: 7px 15px;
+            border: none;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1.3px;
+            color: white;
+            text-transform: uppercase;
+            box-shadow: 1px 2px 3px 0 rgba(77, 96, 83, 0.53);
+            transition: transform 500ms;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            /* scale(1.4) rotate(45deg)  skew(10deg)  translate(50px)           */
+            cursor: pointer;
+            color: #c6f725;
+        }
+        .btn-reset {
+            background-color: rgba(216, 35, 35, 0.87);
+            margin-right: 15px;
         }
         .btn-submit {
-            background-color: darkslateblue;
+            background-color: rgba(22, 110, 230, 0.78);
             
+            
+            
+        fieldset {
+            margin-bottom: 20px;
+            border: 2px dotted rgba(255, 0, 255, 0.37);
         }
+        
+        legend {
+            color: darkred;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+            
+
+        
     </style>
 </head>
 
